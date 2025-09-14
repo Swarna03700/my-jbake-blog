@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JBake</title>
+    <link>http://example.com</link>
+    <atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml" />
+    <description>JBake Bootstrap Template</description>
+    <language>en-gb</language>
+    <pubDate>Sun, 14 Sep 2025 11:22:26 +0530</pubDate>
+    <lastBuildDate>Sun, 14 Sep 2025 11:22:26 +0530</lastBuildDate>
+
+    <item>
+      <title>My First Post</title>
+      <link>http://example.com/blog/2025-09-14-first-post.html</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0530</pubDate>
+      <guid isPermaLink="false">blog/2025-09-14-first-post.html</guid>
+      <description>&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
+&amp;lt;p&amp;gt;This is my very first post on my &amp;lt;strong&amp;gt;Jbake&amp;lt;/strong&amp;gt; powered blog!&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
+&amp;lt;p&amp;gt;lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
+&amp;lt;p&amp;gt;lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
+&amp;lt;p&amp;gt;lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.
+lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;</description>	  
+    </item><item>
+      <title>My Third Post</title>
+      <link>http://example.com/blog/2025-09-14-third-post.html</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0530</pubDate>
+      <guid isPermaLink="false">blog/2025-09-14-third-post.html</guid>
+      <description>&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
+&amp;lt;p&amp;gt;This is my very first post on my &amp;lt;strong&amp;gt;Jbake&amp;lt;/strong&amp;gt; powered blog!&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
+&amp;lt;p&amp;gt;lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
+&amp;lt;p&amp;gt;lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
+&amp;lt;p&amp;gt;lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.
+lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;</description>	  
+    </item><item>
+      <title>My Second Post</title>
+      <link>http://example.com/blog/2025-09-14-second-post.html</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0530</pubDate>
+      <guid isPermaLink="false">blog/2025-09-14-second-post.html</guid>
+      <description>&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
+&amp;lt;p&amp;gt;This is my very first post on my &amp;lt;strong&amp;gt;Jbake&amp;lt;/strong&amp;gt; powered blog!&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
+&amp;lt;p&amp;gt;lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
+&amp;lt;p&amp;gt;lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
+&amp;lt;p&amp;gt;lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.
+lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;</description>	  
+    </item>
+
+  </channel> 
+</rss>
