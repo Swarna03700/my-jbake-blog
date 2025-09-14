@@ -1,0 +1,26 @@
+name: Build & Deploy JBake site
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build site with JBake (docker)
+        run: |
+          docker run --rm -v "${{ github.workspace }}":/workspace -w /workspace jbake/jbake:latest jbake -b
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          publish_branch: gh-pages
+          # optionally set a custom cname by uncommenting and changing the next line:
+          # cname: 'www.example.com'
