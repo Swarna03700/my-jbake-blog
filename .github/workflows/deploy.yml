@@ -1,26 +1,42 @@
-name: Build & Deploy JBake site
+name: Deploy JBake site to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main # Change if your default branch is different
 
 jobs:
-  build-and-deploy:
+  build-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      # 1️⃣ Checkout your repository
+      - name: Checkout source
         uses: actions/checkout@v4
 
-      - name: Build site with JBake (docker)
-        run: |
-          docker run --rm -v "${{ github.workspace }}":/workspace -w /workspace jbake/jbake:latest jbake -b
+      # 2️⃣ Set up Java (JBake runs on Java)
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17" # or your JBake-compatible version
 
+      # 3️⃣ Install JBake
+      - name: Install JBake
+        run: |
+          curl -L https://github.com/jbake-org/jbake/releases/download/v2.7.0/jbake-2.7.0-bin.zip -o jbake.zip
+          unzip jbake.zip -d jbake
+          sudo mv jbake/jbake-2.7.0 /opt/jbake
+          sudo ln -s /opt/jbake/bin/jbake /usr/local/bin/jbake
+
+      # 4️⃣ Build the site
+      - name: Bake site
+        run: jbake -b
+
+      # 5️⃣ Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
           publish_branch: gh-pages
-          # optionally set a custom cname by uncommenting and changing the next line:
-          # cname: 'www.example.com'
